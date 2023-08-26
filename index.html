@@ -16,25 +16,31 @@
     <main>
         <h1>Calculadora de IMC</h1>
         <div class="main-container">
-            <div class="card">
-                <div class="inputbox">
-                    <label for="altura">Altura</label>
-                    <p class="valor valor-altura">180cm</p>
-                    <input type="range" class="range-input" name="altura" id="altura" min="140" max="220">
-                </div>
-                <div class="inputbox">
-                    <label for="peso">peso</label>
-                    <p class="valor valor-peso">70kg</p>
-                    <input type="range" class="range-input" name="peso" id="peso" min="40" max="150">
-                </div>
-                <button class="btn-calculate">Calcular IMC</button>
-                <div class="resultbox">
-                    <p>Seu IMC</p>
-                    <h2 id="resultnumber">0,0</h2>
-                    <h3 class="resulttext" id="resulttext">abaixo do peso</h3>
-                </div>
+            <div class="leftside">
+                <img src="images/Healthy habit-rafiki.svg" alt="Pessoa malhando">
             </div>
-
+            <div class="rightside">
+                <div class="card">
+                    <div class="inputbox">
+                        <label for="altura">Altura</label>
+                        <p class="valor valor-altura">180cm</p>
+                        <input type="range" class="range-input" name="altura" id="altura" min="140" max="220">
+                    </div>
+                    <div class="inputbox">
+                        <label for="peso">peso</label>
+                        <p class="valor valor-peso">70kg</p>
+                        <input type="range" class="range-input" name="peso" id="peso" min="40" max="150">
+                    </div>
+                    <button class="btn-calculate">Calcular IMC</button>
+                    <div class="resultbox">
+                        <p>Seu IMC</p>
+                        <h2 id="resultnumber">0,0</h2>
+                        <h3 class="resulttext" id="resulttext">abaixo do peso</h3>
+                    </div>
+                </div>
+    
+            </div>
+            
             <div class="table">
                 <ul>
                     <li>
